@@ -379,15 +379,11 @@ function Home() {
                                             <div className="row scroll">
                                                 {productDetails.prod_img?.length > 0 &&
                                                     productDetails.prod_img.map((image, index) => (
-
                                                         <div className="col">
                                                             <div className="view overlay rounded z-depth-1 gallery-item">
-
                                                                 <img src={image} className="img-fluid" />
-
                                                                 <div className="mask rgba-white-slight" />
                                                             </div>
-
                                                         </div>
                                                     ))}
                                             </div>
@@ -423,7 +419,6 @@ function Home() {
                                                     <strong>Marthasteward </strong>
                                                     <span>– </span><span>January 28, 2020</span>
                                                 </p>
-
                                             </div>
                                             <p className="mb-0">Nice one, love it!</p>
                                         </div>
@@ -431,7 +426,6 @@ function Home() {
                                     <hr />
                                     <h5 className="mt-4">Add a review</h5>
                                     <p>Your email address will not be published.</p>
-
                                     <div>
                                     
                                         <div className="md-form md-outline">

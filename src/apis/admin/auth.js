@@ -5,7 +5,7 @@ const login = ({ email, password }) => {
     email,
     passWord: password,
   });
-};//admin comment
+};
 
 const register = ({ username, password, email, fullName, phoneNumber }) => {
   return axios.post('/unauthorized-api/auth/register', {
