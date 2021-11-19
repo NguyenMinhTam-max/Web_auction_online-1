@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { history } from '../helpers';
-const baseURL = process.env.APP_BASE_URL || 'http://localhost:3000';
+const baseURL = 'https://auction-online-web.herokuapp.com';
 
 axios.defaults.baseURL = baseURL;
 
