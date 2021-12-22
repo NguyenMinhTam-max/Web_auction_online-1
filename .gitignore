@@ -26,3 +26,5 @@ yarn-error.log*
 #personal
 go.cmd
 go.bat
+
+.toml

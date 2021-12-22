@@ -144,7 +144,7 @@ export const adminRoutes = [
     protected: true,
     exact: true,
     component: DashbroadPage,
-    roles: [Role.Admin],
+    //roles: [Role.Admin],
   },
   {
     path: '/admin/dashboard',
@@ -155,7 +155,8 @@ export const adminRoutes = [
   },
   {
     path: '/admin/user/admins',
-    protected: true,
+    //protected: true,
+    protected: false,
     exact: true,
     component: UserPage,
     roles: [Role.Admin],
