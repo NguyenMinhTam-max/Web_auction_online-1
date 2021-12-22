@@ -151,7 +151,7 @@ export const adminRoutes = [
     protected: true,
     exact: true,
     component: DashbroadPage,
-    roles: [Role.Admin],
+    //roles: [Role.Admin],
   },
   {
     path: '/admin/user/admins',
@@ -159,7 +159,7 @@ export const adminRoutes = [
     protected: false,
     exact: true,
     component: UserPage,
-    roles: [Role.Admin],
+    //roles: [Role.Admin],
     additional: {
       filter: Role.Admin,
     }
@@ -169,7 +169,7 @@ export const adminRoutes = [
     protected: true,
     exact: true,
     component: UserPage,
-    roles: [Role.Admin],
+    //roles: [Role.Admin],
     additional: {
       filter: Role.Seller,
     }
@@ -179,7 +179,7 @@ export const adminRoutes = [
     protected: true,
     exact: true,
     component: UserPage,
-    roles: [Role.Admin],
+    //roles: [Role.Admin],
     additional: {
       filter: Role.Bidder,
     }
@@ -196,7 +196,7 @@ export const adminRoutes = [
     protected: true,
     exact: true,
     component: AdminCategoryPage,
-    roles: [Role.Admin],
+    //roles: [Role.Admin],
     additional: {
       filter: Role.Bidder,
     }
@@ -206,7 +206,7 @@ export const adminRoutes = [
     protected: true,
     exact: true,
     component: AdminSubCategoryPage,
-    roles: [Role.Admin],
+    //roles: [Role.Admin],
     additional: {
       filter: Role.Bidder,
     }
