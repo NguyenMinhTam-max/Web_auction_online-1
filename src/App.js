@@ -187,11 +187,9 @@ function App() {
                         exact={route.exact}
                         render={(props) => {
                           return (
-                            <ProtectedRoute {...props}>
-                              <CheckRole roles={route.roles}>
+        
                                 <route.component {...props} {...route.props} additional={route?.additional} />
-                              </CheckRole>
-                            </ProtectedRoute>
+                            
                           );
                         }}
                       />
