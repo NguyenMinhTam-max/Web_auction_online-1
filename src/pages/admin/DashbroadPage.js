@@ -59,7 +59,6 @@ function Home() {
     const classes = useStyles()
     // const location = useLocation();
     const admin = useSelector((state) => state.auth);
-    if (admin.user == null) return <Redirect to='/login' />;
     return (
         <div className={classes.content}>
           <Container>
